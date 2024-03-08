@@ -1,4 +1,4 @@
-let numbers = 0;
+let numbers = 1;
 let id;
 function startCount() {
   const startNumbers = document.getElementById("count-numbers");
