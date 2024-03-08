@@ -1,12 +1,13 @@
-
 let numbers = 0;
-
+let id;
 function startCount() {
-  document.getElementById("start-btn");
   const startNumbers = document.getElementById("count-numbers");
 
-  startNumbers = setInterval(function () {
+   id = setInterval(function () {
     startNumbers.innerHTML = numbers;
     numbers++;
   }, 1000);
+}
+function stopCount() {
+  clearInterval(id);
 }
