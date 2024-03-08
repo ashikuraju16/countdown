@@ -11,3 +11,7 @@ function startCount() {
 function stopCount() {
   clearInterval(id);
 }
+
+function resetNumber(){
+ 
+}
