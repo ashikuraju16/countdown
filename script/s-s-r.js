@@ -13,5 +13,7 @@ function stopCount() {
 }
 
 function resetNumber(){
- 
+const reset = document.getElementById("count-numbers");
+reset.innerHTML = '0';
+clearInterval(id);
 }
